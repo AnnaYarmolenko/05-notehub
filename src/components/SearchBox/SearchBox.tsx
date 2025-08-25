@@ -2,7 +2,7 @@ import css from "./SearchBox.module.css";
 
 interface SearchBoxProps {
   value: string;
-  onSearch: (newSearchQuetry: string) => void;
+  onSearch: (newSearchQuery: string) => void;
 }
 
 export default function SearchBox({ value, onSearch }: SearchBoxProps) {
